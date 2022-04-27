@@ -32,6 +32,7 @@ const init = function () {
   player1El.classList.remove('player--winner');
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
+  document.querySelector('.player_wins').innerText = '';
 };
 init();
 
@@ -81,6 +82,8 @@ btnHold.addEventListener('click', function () {
       // Finish the game
       playing = false;
       diceEl.classList.add('hidden');
+
+      document.querySelector('.player_wins').innerText = `Player ${activePlayer + 1} wins!`
 
       document
         .querySelector(`.player--${activePlayer}`)
