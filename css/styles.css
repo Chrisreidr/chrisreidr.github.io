@@ -123,11 +123,24 @@ body {
   padding: 15px;
 }
 
+.project_title:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: ease-in 0.5s;
+}
+
 .imgs {
   width: 70%;
   height: auto;
   border-radius: 5px;
   border: 5px solid rgb(104, 87, 87);
+  opacity: 0.75;
+}
+
+.imgs:hover {
+  transition: ease-in 0.75s;
+  opacity: 1;
 }
 
 .BUTTON_UIC {
