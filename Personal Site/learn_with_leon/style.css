@@ -1,0 +1,66 @@
+body {
+    border: 5px solid rgb(1 203 74);
+    background: rgb(120, 206, 233);
+    max-width: 600px;
+    margin: 25px auto;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+main h2 {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+main {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+img {
+    float: right;
+    padding: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    color: rgb(13 203 165);
+}
+
+li::after {
+    content: "|";
+    margin-left: 8px;
+    color: rgb(128 128 128);
+    font-weight: bold;
+}
+
+li:last-child::after {
+    display: none;
+}
+
+header ul li {
+    color: white;
+    font-weight: bold;
+}

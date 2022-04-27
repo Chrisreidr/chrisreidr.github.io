@@ -1,0 +1,264 @@
+body {
+    margin: 8px 0 0 0;
+}
+nav {
+    width: 100%;
+}
+nav > span {
+    float: left;
+    width: 12%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 1.4em;
+    position: relative;
+    left: 50px;
+}
+nav > ul {
+    list-style: none;
+    float: left;
+    width: 76%;
+    height: 40px;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+nav > ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+nav > ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+nav > a {
+    float: left;
+    text-decoration: none;
+    width: 12%;
+    height: 40px;
+    text-align: right;
+    padding-top: 15px;
+    position: relative;
+    right: 50px;
+    color: black;
+}
+main {
+    clear: both;
+    background: url(images/background_img1_edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+    font-size: 10px;
+}
+.main {
+    float: left;
+    margin-top: 11.2%;
+    margin-left: 10%;
+    max-width: 55%;
+}
+.main > h1 {
+    font-size: 8.5em;
+    margin-bottom: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.main > p, .main > a, .coupon, .main > h1, .second_section > section > div a, .the_gals > div div h4, .the_gals > div div span, .coupon_img_section > section a {
+    color: white;
+}
+.main > p {
+    margin-bottom: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.main > a {
+    position: relative;
+    background: black;
+    top: 20px;
+    padding: 15px;
+    font-size: 1em;
+}
+.coupon {
+    float: left;
+    width: 1000px;
+    height: 300px;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.coupon > div {
+    background: black;
+    width: 14%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    height: 150px;
+    padding-top: 30px;
+}
+.coupon > div > a {
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 10px 15px 10px 15px;
+    position: relative;
+    top: 25px;
+}
+.coupon > div > p {
+    line-height: 3em;
+    margin-bottom: 0; 
+}
+.coupon > div > span {
+    position: relative;
+    right: 12px;
+}
+.twenty_percent {
+    font-size: 2em;
+    font-weight: 700;
+}
+.sub_section {
+    text-align: center;
+    display: inline-block;
+}
+.sub_section > div {
+    float: left;
+    width: 25%;
+    height: 250px;
+}
+.sub_section > div:first-child {
+    margin-left: 12%;
+}
+.second_section {
+    background: rgb(243,244,246);
+    padding: 100px 0 100px 0;
+}
+.second_section >section > img {
+    width: 37%;
+}
+.second_section > section > div {
+    float: left;
+    width: 50%;
+    height: 200px;
+    position: relative;
+    left: 14%;
+}
+.second_section > section > div h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.second_section > section > div p {
+    width: 60%;
+    line-height: 1.65em;
+    margin-bottom: 30px;
+}
+.second_section > section > div a {
+    text-decoration: none; 
+    background: black;
+    padding: 10px 15px 10px 15px;
+}
+.the_gals {
+    padding-top: 100px;
+    height: 600px;
+}
+.the_gals > div {
+    float: left;
+    width: 33.3333%;
+    height: 300px;
+    text-align: center;
+}
+.bio {
+    background: black;
+    width: 300px;
+    margin-left: 15%;
+    height: 95px;
+    position: relative;
+    bottom: 25%;
+}
+.bio h4 {
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.coupon_img_section {
+    height: 400px;
+    width: auto;
+    background: url(images/coupon_img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-size: 10px;
+}
+.coupon_img_section > section {
+    padding: 5% 0 0 10%;
+}
+.coupon_img_section > section h1 {
+    font-size: 5em;
+    margin-top: 0;
+}
+.coupon_img_section > section h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.coupon_img_section > section a {
+    text-decoration: none;
+    font-size: 1.25em;
+    background: black;
+    padding: 10px 15px 10px 15px;
+}
+.lookbook {
+    height: 1000px;
+    font-size: 10px;
+}
+.lookbook > section {
+    margin: 3% 0 0 5%;
+}
+.lookbook > h1 {
+    margin-top: 5%;
+    font-size: 4em;
+    text-align: center;
+}
+.bottom_line {
+    border-bottom: 5px solid black;
+    width: 40px;
+    margin-left: 48%;
+}
+.box {
+    float: left;
+    width: 30%;
+    height: 600px;
+    margin: 10px;
+}
+.one {
+    height: 300px;
+}
+.two {
+    height: 600px;
+}
+.three {
+    height: 300px;
+}
+.four {
+    clear: both;
+    height: 600px;
+    margin-top: -290px;
+}
+.five {
+    height: 300px;
+}
+.six {
+    height: 600px;
+    margin-top: -290px;
+}
+.lookbook > section > div > img {
+    height: 100%;
+    width: 100%;
+}
+.cover {
+    object-fit: cover;
+    object-position: 0% 8%;
+}
+@media (min-width: 1300px) {
+    .main {
+        /* margin-top: 13.2%; */
+        margin-left: 12%;
+        font-size: 1.1em;
+    }
+    .coupon {
+        margin-left: 12%;
+    }
+}

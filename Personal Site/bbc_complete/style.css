@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    clear: both;
+    margin: 0;
+}
+
+main {
+    clear: both;
+    padding: 0 20px 0 20px;
+}
+
+.main > img {
+    height: 400px;
+}
+
+.bottom {
+    height: 500px;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    background: black;
+    height: 35px;
+}
+
+nav *{
+    float: left;
+    height: 20px;
+    width: 10%;
+    color: white;
+}
+
+nav ul {
+    width: 50%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 6px;
+    text-decoration: none;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+}
+
+nav ul li a {
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+}
+
+select{
+    height: 35px;
+    background: black;
+}
+
+nav form input {
+    width: 100%;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+nav > a {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+nav > img {
+    width: 6.3%;
+    height: auto;
+}
+
+main > h1 {
+    position: relative;
+    margin-bottom: 0;
+    top: 25px;
+}
+
+main > h1 + h3{
+   text-align: right;
+   margin-top: 0;
+   color: #666;
+   position: relative;
+   right: 1%;
+}
+
+main .main_section, main .fours_sections {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+main .main_section > img {
+    width: 100%;
+}
+
+main .four_sections {
+    width: 50%;
+    height: 440px;
+    float: left;
+}
+
+main .four_sections .section_articles{
+    width: 50%;
+    float: left;
+    height: 39.5%;
+    position: relative;
+    left: 1%;
+}
+
+main .four_sections .section_articles img{
+    max-width: 96%;
+    height: auto;
+}
+
+div.move_me {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    bottom: 110px;
+    margin-left: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+}
+
+div.move_me_more {
+    position: relative;
+    bottom: 160px;
+}
+
+.bottom article {
+    width: 31.8%;
+    float: left;
+    padding-left: 1.5%;
+}
+
+.span {
+    color: rgb(142, 142, 141);
+}
+
+.span::before {
+    content: "|";
+    color: red;
+    padding-right: 5px;
+}
+
+.bottom img {
+    width: 96%;
+}
+
+.bottom > h2 {
+    padding-left: 1.5%;
+}
+
+@media (min-width: 1350px) {
+    main .four_sections .section_articles{
+        width: 50%;
+        float: left;
+        height: 47%;
+        position: relative;
+        left: 1%;
+    }
+}
