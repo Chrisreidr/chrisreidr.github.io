@@ -1,0 +1,175 @@
+body {
+    margin: 0 auto;
+}
+.nav {
+    margin-left: 42%;
+    height: 50px;
+}
+.nav > ul {
+    height: 50px;
+    margin-top: 0;
+    padding-top: 16px;
+}
+.nav > ul li{
+    list-style: none;
+    float: left;
+    width: 12%;
+    height: 50px;
+    text-align: center;
+}
+.nav > ul li a {
+    text-decoration: none;
+}
+main{
+    height: 700px;
+    background: url(images/cuisine_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom_main {
+    margin: 8% 0 0 8%;
+    width: 50%;
+}
+.bottom_main h1 {
+    font-size: 4.5em;
+    margin-bottom: 20px;
+}
+.bottom_main form input, .bottom_main form select {
+    padding: 10px;
+    border-radius: 5px;
+}
+.bottom_main form input {
+    width: 70%;
+}
+.bottom_main form select {
+    background: rgb(255,136,0);
+    color: white;
+    width: 15%;
+}
+.logos div {
+   display: inline-block;
+   padding-top: 5%;
+   padding-right: 10%;
+}
+.logos div i {
+    color: orange;
+}
+.first_section {
+    height: 700px;
+    background: url(images/cuisine_image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_section {
+    text-align: center;
+}
+.top_img_section img, .bottom_img_section img{
+    height: 340px;
+    width: 240px;
+    padding:10px;
+}
+.first_section > section {
+    margin-left: 45%;
+    padding-top: 60px;
+    width: 48%;
+}
+.first_section > section h4 {
+    color: orange;
+    margin: 0;
+}
+.first_section > section h1 {
+    font-size: 3em;
+    margin-top: 0;
+}
+.first_section > section div {
+    padding-top: 25px;
+}
+.first_section > section div a + a {
+    text-decoration: none;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    height: 50px;
+    width: 100px;
+}
+.second_section {
+    text-align: center;
+}
+.second_section {
+    padding-top: 25px;
+    background: rgb(242,246,247);
+}
+.second_section > section > ul {
+    list-style: none;
+    padding-left: 0;
+}
+.second_section > section > ul li {
+    display: inline-block;
+    border-bottom: 2px solid rgb(225,228,229);
+}
+.second_section > section > ul li a {
+    text-decoration: none;
+    font-size: 1.25em;
+    color: rgb(101,102,128);
+    padding: 20px 30px 20px 30px;
+}
+.second_section > section > ul li a:hover, .second_section > section > ul li:hover  {
+    color: orange;
+    border-color: orange;
+}
+.second_section > section > a {
+    text-decoration: none;
+    color: orange;
+}
+.second_section > section > h1 {
+    font-size: 5em;
+    margin: 0 0 20px 0;
+}
+.third_section {
+    height: 800px;
+}
+.third_section > section {
+    padding-top: 5%;
+    text-align: center;
+}
+.third_section > section > a, .third_section > section > i, .third_section > section > h2, .fourth_section > section > h6 {
+    text-decoration: none;
+    color: orange;
+}
+.third_section > section > h1, .fourth_section > section > h2 {
+    margin: 0 0 30px 0;
+    font-size: 3em;
+    font-weight: 700;
+}
+.third_section > section > i {
+    padding-bottom: 15px;
+}
+.left_times_days, .right_times_days {
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+.fourth_section > section {
+    text-align: center;
+    padding-top: 5%;
+}
+.fourth_section > section > h6, .fourth_section > section > h4 {
+    margin-bottom: 0;
+}
+.fourth_section > section > span {
+    font-size: .9em;
+    color:gray;
+    margin-bottom: 20px;
+}
+.fourth_section > section > img {
+    border-radius: 50%;
+}
+.fourth_section > section > .rating {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.rating {
+    margin-top: 20px;
+}
