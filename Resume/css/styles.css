@@ -24,3 +24,8 @@ img {
   border-color: #9ddfd3;
   border-radius: 100%;
 }
+
+.margin_top {
+  position: relative;
+  margin-top: 50px;
+}
