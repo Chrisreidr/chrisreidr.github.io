@@ -54,6 +54,9 @@ body {
 }
 
 .bottom-nav {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
   word-spacing: 50px;
   padding: 30px;
   font-family: 'Montserrat', sans-serif;
