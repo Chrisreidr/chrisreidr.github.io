@@ -62,6 +62,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.icons {
+  height: 50px;
+  width: auto;
+}
+
 .bottom-cloud {
   position: absolute;
 }
