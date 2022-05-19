@@ -1,5 +1,8 @@
 body {
   background-color: #e3fdfd;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 hr {
@@ -25,7 +28,22 @@ img {
   border-radius: 100%;
 }
 
-.margin_top {
-  position: relative;
+.contactMe {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding:10px;
+  color: rgb(221,255,254);
+  background: rgb(46,123, 235);
+  text-decoration: none;
+}
+
+.contactMe:hover {
+  color: rgb(46,123, 235);
+  background: rgb(221,255,254);
+}
+
+.margin-top {
+  text-align: center;
   margin-top: 50px;
+  margin-bottom: 25px;
 }
