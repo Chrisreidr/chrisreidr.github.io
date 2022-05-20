@@ -68,7 +68,11 @@ body {
 }
 
 .bottom-cloud {
-  position: absolute;
+  position: relative;
+  display: block;
+  left: 190px;
+  animation: move 8s linear infinite;
+  animation-delay: 2s;
 }
 
 .footer-link {
@@ -78,6 +82,14 @@ body {
 .top-cloud {
   position: relative;
   left: 190px;
+  animation: move 8s linear infinite;
+}
+
+@keyframes move {
+  50% {
+    left: 400px;
+    right: 400px;
+  }
 }
 
 .profile-pic {
@@ -99,11 +111,13 @@ body {
 }
 
 .skill-pic-a {
-  width: 25%;
+  position: relative;
+  width: 30%;
   float: left;
   border-radius: 10%;
   margin-right: 30px;
-  margin-top: 80px
+  margin-top: 80px;
+  bottom: 80px;
 }
 
 .skill-pic-b {
@@ -149,6 +163,12 @@ body {
 .imgs:hover {
   transition: ease-in 0.75s;
   opacity: 1;
+}
+
+.gradientDivider {
+  height: 30px;
+  width: 100%;
+  background: linear-gradient(rgb(212,249,233), rgb(68,196,193));
 }
 
 .BUTTON_UIC {
