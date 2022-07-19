@@ -49,6 +49,12 @@ body {
   padding-top: 10px;
 }
 
+.transition {
+  height: 10vh;
+  width: 100%;
+  background: linear-gradient(rgb(195,243,245), rgb(212,249,233));
+}
+
 .bottom-container {
   background-color: #66BFBF;
   margin: 0;
