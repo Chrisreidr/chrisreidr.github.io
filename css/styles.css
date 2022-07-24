@@ -50,7 +50,7 @@ body {
 }
 
 .transition {
-  height: 11vh;
+  height: 10vh;
   width: 100%;
   background: linear-gradient(rgb(195,243,245), rgb(212,249,233));
 }
