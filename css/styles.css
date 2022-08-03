@@ -70,7 +70,7 @@ body {
 }
 
 .icons {
-  height: 115px;
+  height: 105px;
   width: auto;
 }
 
@@ -88,8 +88,7 @@ body {
 
 .top-cloud {
   position: relative;
-  top: 50px;
-  left: 190px;
+  left: 120px;
   animation: move 8s linear infinite;
 }
 
